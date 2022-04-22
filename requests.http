@@ -1,0 +1,28 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "mounika_24",
+  "name": "Mounika Mamidala",
+  "password": "mounika_1234",
+  "gender": "female",
+  "location": "Detroit"
+}
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "adam_r",
+  "password": "222"
+}
+
+###
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_567",
+  "newPassword": "richard_123"
+}
